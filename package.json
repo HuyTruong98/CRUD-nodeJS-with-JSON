@@ -1,0 +1,31 @@
+{
+  "name": "crud-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon --inspect src/app.js",
+    "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crud",
+    "test",
+    "nodeJS"
+  ],
+  "author": "Huydn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "mongoose": "^6.0.11"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.3",
+    "morgan": "^1.10.0",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.13",
+    "prettier": "^2.4.1"
+  }
+}
